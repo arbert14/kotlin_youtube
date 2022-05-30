@@ -1,0 +1,44 @@
+생명주기란 ?
+
+생명주기는 메모리 관리에 목적이 있다.
+
+lifeCycle :
+1. onCreate
+2. onStart
+3. onResume
+4. Activity is running
+5. onPause
+6. onStop
+7. onDestroy
+
+뒤로가기 클릭 시
+1. onCreate
+2. onStart
+3. onResume
+4. Activity is running
+5. onPause
+6. onStop
+7. onDestroy
+
+홈 버튼 클릭 시
+1. onCreate
+2. onStart
+3. onResume
+4. Activity is running
+5. onPause
+6. onStop
+
+작업표시줄 클릭 시
+1. onCreate
+2. onStart
+3. onResume
+4. Activity is running
+5. onPause
+6. onStop
+
+되돌아오면
+1. onStart
+2. onResume
+3. Activity  is running
+
+1. 메모리
