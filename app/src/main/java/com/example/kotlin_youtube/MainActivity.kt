@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d(TAG, "MainActivity - onStart called")
+        Log.d(TAG, "MainActivity - onStart called")asdasd
     }
 
     override fun onResume() {
