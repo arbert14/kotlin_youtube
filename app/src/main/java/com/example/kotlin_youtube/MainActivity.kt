@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-
         binding.relative.setBackgroundColor(Color.parseColor("#0064c8"))
         Log.d(TAG, "MainActivity - onPause called")
     }
